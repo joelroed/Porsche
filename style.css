@@ -5,12 +5,12 @@ GENERAL
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
   }
 
   html {
@@ -19,10 +19,13 @@ GENERAL
 
   a {
     text-decoration: none;
+    cursor: pointer;
   }
 
   ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
 
   body {
@@ -37,7 +40,7 @@ GENERAL
 
 
   #landing__page {
-    /* background-color: rgb(225, 231, 231); */
+    background-color: rgb(225, 231, 231);
  }
 
  .porsche__logo--wrapper {
@@ -59,4 +62,42 @@ GENERAL
   font-size: 16px;
   font-weight: 800;
   padding: .6rem;
+  font-family: "roboto";
+ }
+
+ /*
+ 
+ ICONS RIGHT SIDE 
+ 
+ */
+
+ .icons__right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  transform: translate(-17.5%, 10%);
+  font-size: 24px;
+  color: gray;
+  background-color: #000;
+ }
+ 
+ .fa-magnifying-glass {
+  transform: translate(30%, -200%);
+  color: rgb(255, 219, 149);
+  font-size: 28px;
+  background-color: #000;
+  padding: 12px;
+  border-top-right-radius: 16px;
+ }
+
+ .fa-location-dot {
+  padding: 0 0 5rem;
+ }
+
+ .fa-brands {
+  padding: 1rem 0;
+ }
+
+ .fa-arrow-rotate-left {
+  padding: 8rem 0;
  }
